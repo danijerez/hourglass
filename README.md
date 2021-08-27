@@ -30,7 +30,7 @@
 </table>
 
 ## 💿 Programs
-[![Source](https://img.shields.io/badge/arduino_ide-008184?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=101010)](https://www.arduino.cc/en/software)
+[![Source](https://img.shields.io/badge/arduino_ide-008184?style=for-the-badge&logo=arduino&logoColor=white&labelColor=101010)](https://www.arduino.cc/en/software)
 
 ## 💾 Source
 [![Source](https://img.shields.io/badge/flash_src.ino_with_arduino_ide-999999?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/danijerez/hourglass/src)
