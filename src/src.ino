@@ -15,9 +15,8 @@ MPU6050 mpu6050(Wire);
 #define ACC_THRESHOLD_HIGH 25
 
 // Matrix
-#define PIN_DATAIN 5
-#define PIN_CLK 4
-#define PIN_LOAD 6
+#define PIN_CLK 6
+#define PIN_LOAD 4
 
 // Accelerometer
 #define PIN_X  mpu6050.getAngleX()
@@ -440,7 +439,8 @@ void buttonPush() {
  */
 void setup() {
 mpu6050.calcGyroOffsets(true);
- // Serial.begin(9600);
+ Serial.begin(9600);
+ Wire.begin();
 mpu6050.begin();
   
   // while (!Serial) {
