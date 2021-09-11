@@ -2,8 +2,7 @@
 ### Build an hourglass with arduino and gyroscope. Based on the [Viral Dodhia](https://www.viralsciencecreativity.com/post/arduino-hourglass-with-matrix-display-and-mpu6050) project. I have modified some lines of the original code so that the initial calculation is a little faster and the sand moves more fluidly.
 # 🖖 [![Twitter Follow](https://img.shields.io/twitter/follow/d4nijerez?style=social)](https://twitter.com/d4nijerez) ![GitHub Followers](https://img.shields.io/github/followers/danijerez?style=social)
 
-<img style="width: 49%" src="img/result.png">
-<img style="width: 38%" src="img/cover.png">
+<img style="width: 100%" src="img/cover.png">
 
 ## 🗺️ Diagram
 ![](img/diagram.png)
