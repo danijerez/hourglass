@@ -1,5 +1,5 @@
 # ⌛ Hourglass
-### Build an hourglass with arduino and gyroscope. Based on the [Viral Dodhia](https://www.viralsciencecreativity.com/post/arduino-hourglass-with-matrix-display-and-mpu6050) project.
+### Build an hourglass with arduino and gyroscope. Based on the [Viral Dodhia](https://www.viralsciencecreativity.com/post/arduino-hourglass-with-matrix-display-and-mpu6050) project. I have modified some lines of the original code so that the initial calculation is a little faster and the sand moves more fluidly.
 # 🖖 [![Twitter Follow](https://img.shields.io/twitter/follow/d4nijerez?style=social)](https://twitter.com/d4nijerez) ![GitHub Followers](https://img.shields.io/github/followers/danijerez?style=social)
 
 ## 🗺️ Diagram
@@ -33,16 +33,17 @@
 [![Source](https://img.shields.io/badge/arduino_ide-008184?style=for-the-badge&logo=arduino&logoColor=white&labelColor=101010)](https://www.arduino.cc/en/software)
 
 ## 📚 Libraries
+
+⚠️ ` Copy the "Delay" folder into the arduino library directory. ` 
+<br>
+` 📁 Default -> C:\Users\{username}\Documents\Arduino\libraries `
+<br>
+✔️ ` Install the following libraries from arduino IDE. ` 
+
 [![Source](https://img.shields.io/badge/LedControl-008184?style=for-the-badge&logo=arduino&logoColor=white&labelColor=101010)](http://wayoda.github.io/LedControl)
 [![Source](https://img.shields.io/badge/MPU6050__tockn-008184?style=for-the-badge&logo=arduino&logoColor=white&labelColor=101010)](https://github.com/Tockn/MPU6050_tockn)
 
-#### ✔️ ` Install the following libraries from arduino IDE. ` 
-
 <img style="width:80%" src="img/libs.png">
-
-#### ⚠️ ` Copy the "Delay" folder into the arduino library directory. ` 
-####  ` Default 📁 C:\Users\{username}\Documents\Arduino\libraries `
-<br>
 
 ## 💾 Source
 [![Source](https://img.shields.io/badge/flash_src.ino_with_arduino_ide-999999?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/danijerez/hourglass/src)
@@ -50,6 +51,9 @@
 ## ❓ Tutorials
 [![YouTube](https://img.shields.io/badge/Viral_Science-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=101010)](https://www.youtube.com/watch?v=MfGyKWfEPbg)
 [![YouTube](https://img.shields.io/badge/EDISON_SCIENCE_CORNER-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=101010)](https://www.youtube.com/watch?v=AyzsMfBe5JA)
+
+## 🧪 Testing
+[![YouTube](https://img.shields.io/badge/test_1-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=101010)](https://youtu.be/fJEkSrDx9cU)
 
 ## 🔍 Samples
 [![YouTube](https://img.shields.io/badge/sample_1-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=101010)](https://www.youtube.com/watch?v=U-vmEOuy348)
